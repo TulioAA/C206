@@ -15,7 +15,7 @@ public class MedicoMilitar extends Soldado implements Curar {
         if(this.itens!=null)
             this.capacidadeEmergencia = this.capacidadeEmergencia+100;
         if(this.capacidadeEmergencia>=920){
-            System.out.println(super.nome() + " curou");
+            System.out.println(this.nome + " curou");
         }
     }
 

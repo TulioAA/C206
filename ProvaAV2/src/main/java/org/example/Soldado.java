@@ -35,7 +35,7 @@ public abstract class Soldado {
         System.out.println("A quantidade de soldados são "+ qtdSoldado);
     }
     public void usandoItem(){
-        if(itens.getTipo()){
+        if(this.itens!=null){
         System.out.println(this.nome+" utilizando item especial");
         }
         else{

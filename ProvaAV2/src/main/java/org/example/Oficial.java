@@ -15,9 +15,9 @@ public class Oficial extends Soldado implements Defesa {
     @Override
     public void defender() {
         if(this.itens!=null){
-            System.out.println(super.nome() + " conseguiu se defender");
+            System.out.println(this.getNome() + " conseguiu se defender");
         } else
-            System.out.println(super.nome() + " não se defendeu");
+            System.out.println(this.getNome() + " não se defendeu");
     }
     @Override
     public void usandoItem() {
